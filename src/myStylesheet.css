@@ -55,6 +55,7 @@ body {
     padding: 2%;
   text-align: center;
   display: flex;
+  place-content: center;
 }
 #button2{
     background-color: #008CBA;
