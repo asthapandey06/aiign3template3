@@ -11,3 +11,43 @@
     margin: 7% 5% 7% 5%;
     font-family: Arial, Helvetica, sans-serif;
   }
+  #content1{
+      padding: 3%;
+    background-color: #D3D3D3D3;
+  }
+  #upper-content {
+    width: 20%;
+    line-height: 1.5;
+    padding-bottom: 5%; 
+  }
+  
+  
+  #content2{
+     text-align: center;
+     display: flex;
+     place-content: center;
+     
+  }
+  .inner{
+      float: left;
+      width: 20%;
+      display: flex;
+      flex-wrap: nowrap; 
+      margin: 30px;
+      display: block;
+  }
+  
+  #button {
+    width: auto;
+  padding: 5%;
+    border-radius: 5px;
+  }
+  
+  .heading {
+      background-color: #d3d3d367;
+      padding: 78px 148px 70px 50px;
+    }
+    .inner{
+        padding:25%
+        back
+    }
