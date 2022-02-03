@@ -1,5 +1,7 @@
+
 #header {
   overflow: hidden;
+  display: flex;
 }
 .topnav-right {
   float: right;
@@ -35,7 +37,7 @@ body {
   display: block;
 }
 
-#button {
+#button1 {
   width: auto;
   padding: 5%;
   border-radius: 5px;
@@ -52,8 +54,9 @@ body {
     background-color: #d3d3d367;
     padding: 2%;
   text-align: center;
+  display: flex;
 }
-#button{
+#button2{
     background-color: #008CBA;
     padding: 14px 70px;
     text-align: center;
@@ -73,8 +76,21 @@ body {
 #copyright{
     float: left;
     padding-top: 3%;
+    display: flex;
 }
 #cedcoss{
     float: right;
     padding-top: 3%;
+    display: flex;
+}
+@media screen and (max-width: 800px) {
+ 
+  #content2, #header, #footer, .heading{
+    flex-direction: column;
+    place-items: center;
+  }
+  #cedcoss, #copyright{
+    flex-direction: column;
+  }
+
 }
