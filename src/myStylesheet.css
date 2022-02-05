@@ -3,9 +3,14 @@
   overflow: hidden;
   
 }
-.topnav-right {
-  float: right;
+ul{
+  list-style-type: none;
+  float:right;
 }
+li{
+  float: left;
+}
+
 a {
   padding: 24px;
 }
